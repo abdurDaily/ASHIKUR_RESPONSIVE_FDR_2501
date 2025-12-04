@@ -58,3 +58,102 @@ body {
   display: none;
 }
 /* =============== NAVIGATION CSS END ======================*/
+/* =============== BANNER START ====================*/
+#banner .content h4 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  color: #353535;
+  line-height: 0;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#banner .content h4 span {
+  color: #ffd233;
+}
+#banner .content h1 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 64px;
+  color: #353535;
+  margin-top: 20px;
+}
+#banner .content p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 190%;
+  color: #353535;
+  padding: 20px 0 30px 0;
+  margin-bottom: 0;
+}
+#banner .content .btns a:first-child,
+#banner .content .btns a:last-child {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 180%;
+  color: #fff;
+  background-color: #ffcc00;
+  padding: 16px 35px;
+  display: inline-flex;
+  text-decoration: none;
+  align-items: center;
+  line-height: 0;
+  gap: 10px;
+  border-radius: 5px;
+}
+#banner .content .btns a:first-child:hover {
+  background-color: transparent;
+  outline: 1px solid #ffcc00;
+  color: #ffcc00;
+  transition: 0.3s ease-in-out;
+}
+#banner .content .btns a:last-child {
+  background-color: transparent;
+  outline: 1px solid #000;
+  color: #000;
+  margin-left: 30px;
+}
+#banner .content .btns a:last-child:hover {
+  background-color: #ffcc00;
+  outline: none;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+#banner .images img:last-child {
+  display: none;
+}
+#banner .social_icons p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 180%;
+  color: #353535;
+}
+#banner .social_icons {
+  display: flex;
+  align-items: center;
+}
+#banner ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+#banner ul li a {
+  background-color: #F4F3F3;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #000;
+}
+#banner ul li a:hover{
+  transform: rotate(360deg);
+  transition: 0.4s;
+}
+
+/* =============== BANNER END ======================*/
