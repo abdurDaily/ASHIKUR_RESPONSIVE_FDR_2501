@@ -21,6 +21,7 @@
   }
 
   #mobile_footer {
+    z-index: 99;
     position: fixed;
     bottom: 0;
     background-color: #fff;
@@ -104,5 +105,34 @@
   }
   #banner ul {
     gap: 10px;
+  }
+
+  /* ABOUT */
+  #about {
+    margin: 50px 0;
+  }
+  #about .img img {
+    top: 0;
+    right: 30px;
+    transform: rotate(180deg);
+    width: 80px !important;
+  }
+  #about .rorted_img {
+    transform: rotateY(180deg);
+  }
+
+  /* ABOUT END */
+
+  #services_card {
+    padding: 0 15px;
+  }
+  #branding .container {
+    width: 95%;
+    padding: 30px !important;
+    margin: auto;
+     background: linear-gradient(to bottom, #ffcc00, #f0e286);
+  }
+  #branding .curve_sign {
+    display: none;
   }
 }
